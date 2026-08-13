@@ -16,7 +16,7 @@
   var statusEl = document.getElementById('__loader_status');
   function setStatus(msg) { if (statusEl) statusEl.textContent = msg; }
   try {
-    var CHUNK_COUNT = 4;
+    var CHUNK_COUNT = 3;
     var parts = [];
     for (var i = 0; i < CHUNK_COUNT; i++) {
       setStatus('Loading part ' + (i + 1) + ' of ' + CHUNK_COUNT + '…');
